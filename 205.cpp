@@ -14,7 +14,7 @@ int main()
 }
 
 bool isIsomorphic(string s, string t) 
-{
+{   
     map<char,char>check_s,check_t;
     for(int i = 0 ; i < s.length() ; i++)
     {
